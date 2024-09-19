@@ -19,4 +19,6 @@ jobs:
         run: cmd /c show.bat
 
       - name: Time Counter
-        run: echo "Time Counter placeholder"
+        run: |
+          echo "Starting Time Counter"
+          # Add your time counter logic here
